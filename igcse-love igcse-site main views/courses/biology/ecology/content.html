@@ -1,0 +1,70 @@
+<div id="root"></div>
+<template>
+  <section>
+    <h1 class="hidden offset">Ecology</h1>
+    <hr class="compressed">
+    <h2 class="hidden offset">Ecosystems</h2>
+    <p class="hidden offset">An ecosystem is a collection of living organisms and their environment interacting in a given area.</p>
+    <ul class="hidden offset">
+      <li>Animals are living organisms</li>
+      <li>Plants are organisms that provide food for animals</li>
+      <li>Rocks and other lifeless entities make up the environment</li>
+    </ul>
+    <h3 class="hidden offset">Populations</h3>
+    <p class="hidden offset">A population is a group of organisms from the <strong>same species</strong>, living in the same area at the same time.</p>
+    <h3 class="hidden offset">Community</h3>
+    <p class="hidden offset">A community is all of the populations of <strong>different species</strong> in an ecosystem.</p>
+    <h2 class="hidden offset">Energy Transfer</h2>
+    <p class="hidden offset">All organisms need energy, and the <strong>Sun</strong> is the principle source of energy. All organisms need sunlight for nutrients or warmth.</p>
+    <h3 class="hidden offset">Food Chains</h3>
+    <p class="hidden offset">A food chain is a diagram that shows the linear transfer of energy from one organism to another. All food chains start with a plant called the <strong>producer</strong> because it provides food for other organisms using sunlight and nutrients from the soil.</p>
+    <mdc-table headers="['Role', 'Description']" table="[['Producer', 'This is an organism that produces its own food.'], ['Primary Consumer', 'This is a <strong>herbivore</strong> because it only eats plants.'], ['Secondary Consumer', 'This is a predator that feeds on primary consumers.'], ['Tertiary Consumer', 'This is a predator that feeds on secondary consumers.'], ['Decomposer', 'This is an organism that recycles dead organisms into raw nutrients.']]"></mdc-table>
+    <p class="hidden offset">The Sun is <strong>not</strong> included in a food chain. Here is an example of a food chain starting with the producer.</p>
+    <ol class="hidden offset">
+      <li>Grass (Producer)</li>
+      <li>Rabbit (Primary Consumer)</li>
+      <li>Snake (Secondary Consumer)</li>
+      <li>Eagle (Tertiary Consumer)</li>
+    </ol>
+    <p class="hidden offset">Grass → Rabbit → Snake → Eagle</p>
+    <p class="hidden offset">Energy is transferred from one organism to the next through ingestion (eating).</p>
+    <div class="callout">
+      <div class="emoji-container">
+        🤔
+      </div>
+      <div class="note">
+        Herbivores only eat plants while carnivores only eat meat. Omnivores can eat both plants and meat.
+      </div>
+    </div>
+    <h3 class="hiden offset">Food Webs</h3>
+    <p class="hidden offset">A food web is a group of interconnected food chains. It is a more accurate representation of the energy flow in a community.</p>
+    <h3 class="hidden offset">Trophic Levels</h3>
+    <p class="hidden offset">A trophic level is the group of organisms that fall under a category such as producers or primary consumers in a food chain. Energy is lost between each trophic level usually resulting in less organisms higher up in the food chain. In fact, it is rare for a food chain to be longer than 5 organisms.</p>
+    <p class="hidden offset">Energy can be lost in many different ways.</p>
+    <ul class="hidden offset">
+      <li>Movement</li>
+      <li>Excretion</li>
+      <li>Egestion</li>
+      <li>Heat Loss</li>
+    </ul>
+    <h2 class="hidden offset">Human Influences</h2>
+    <p class="hidden offset">Human activity disrupts nature mainly in the form of <strong>eutrophication</strong> and <strong>deforestation</strong>.</p>
+    <h3 class="hidden offset">Eutrophication</h3>
+    <p class="hidden offset">Eutrophication is the enrichment of water bodies with excess nutrients such as nitrogen and phosphorus. Eutrophication is sped up due to 2 factors.</p>
+    <ul class="hidden offset">
+      <li>The use of fertilisers by humans introduces more nutrients into the soil</li>
+      <li>Livestock manure can contaminate streams</li>
+    </ul>
+    <ol>
+      <li><strong>Increased availability of nitrate ions</strong> causes algal bloom</li>
+      <li>Algae blocks sunlight from reaching aquatic plants</li>
+      <li>Plants die due to <strong>lack of light</strong></li>
+      <li>The death of plants causes an <strong>increase in decomposition</strong></li>
+      <li>Decomposers respire and <strong>reduce dissolved oxygen</strong></li>
+      <li>Lack of oxygen kills fish</li>
+    </ol>
+  </section>
+</template>
+<script webity>
+  const MDCTable = $import('$mdc-table.html')
+</script>

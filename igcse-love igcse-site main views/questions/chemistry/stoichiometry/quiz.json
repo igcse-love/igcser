@@ -1,0 +1,35 @@
+{
+  "selective": [
+    {
+      "intro": "Aluminium and oxygen react to produce aluminium oxide. <div class=\"equation\">4 Al + 3 O<sub>2</sub> → 2 Al<sub>2</sub>O<sub>3</sub></div>",
+      "statements": [],
+      "image": "",
+      "question": "How many kilograms of aluminium oxide are formed when 5.4 kg of aluminium react with excess oxygen?",
+      "difficulty": 2,
+      "options": [
+        "5.4 kg",
+        "88 kg",
+        "10.2 kg",
+        "33.6 kg"
+      ],
+      "scheme": 2,
+      "explanation": "The correct answer is: 10.2 kg. Every 4 moles of aluminium make 2 moles of aluminium oxide. The relative atomic mass of aluminium is 27 g mol<sup>-1</sup>. The relative molecular mass of aluminium oxide is 102 g mol<sup>-1</sup>. \nThe mass of aluminium oxide produced is: 5400 g × (102 g mol<sup>-1</sup> ÷ 27 g mol<sup>-1</sup>) × (2 ÷ 4) = 10200 g."
+    },
+    {
+      "intro": "Calcium carbide and water react to produce ethyne and calcium hydroxide. <div class=\"equation\">CaC<sub>2</sub> + 2 H<sub>2</sub>O → C<sub>2</sub>H<sub>2</sub> + Ca(OH)<sub>2</sub></div> The volume of one mole of any gas is 24 dm<sup>3</sup> at room temperature and pressure (r.t.p.).",
+      "statements": [],
+      "image": "",
+      "question": "What is the volume of C<sub>2</sub>H<sub>2</sub> produced, at standard temperature and pressure, when 45 g of water reacts completely with calcium carbide?",
+      "difficulty": 1,
+      "options": [
+        "72 dm<sup>3</sup>",
+        "30 dm<sup>3</sup>",
+        "24 dm<sup>3</sup>",
+        "6 dm<sup>3</sup>"
+      ],
+      "scheme": 1,
+      "explanation": "The correct answer is: 30 dm<sup>3</sup>. The relative molecular mass of H<sub>2</sub>O is: 18 g mol<sup>-1</sup>. The number of moles of water is: 45 g ÷ 18 g mol<sup>-1</sup> = 2.5 mol. The number of moles of ethyne is: 2.5 mol × (1 ÷ 2) = 1.25 mol. The volume of gas produced is: 1.25 mol × 24 dm<sup>3</sup> mol<sup>-1</sup> = 30 dm<sup>3</sup>"
+    }
+  ],
+  "theory": []
+}
