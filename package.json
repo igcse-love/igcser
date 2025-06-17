@@ -1,3 +1,7 @@
+"scripts": {
+  "generate:sitemap": "node scripts/generateSitemap.js",
+  "postinstall": "npm run generate:sitemap"
+}
 {
   "name": "igcse",
   "description": "IGCSE API",
