@@ -1,5 +1,5 @@
 import fs from 'fs'
-const host = 'https://igcse.cyclic.app/'
+const host = 'https://www.docsigcse.ct.ws/'
 const XML = '<?xml version="1.0" encoding="UTF-8"?>'
 
 function indexFolder(dir, exclude) {
